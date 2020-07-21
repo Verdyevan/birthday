@@ -1,0 +1,687 @@
+{% extends 'basee.html' %}
+{% load static %}
+{% block content %}
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    <!-- /Preloader -->
+
+    <!-- Welcome Area Start -->
+    <section class="welcome-area">
+        <div class="welcome-slides owl-carousel">
+            <!-- Single Slide -->
+            <div class="single-welcome-slide bg-img bg-overlay jarallax" style="background-image: url({% static 'project/img/bg-img/nanda1edit.jpg' %});">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <!-- Welcome Text -->
+                        <div class="col-12">
+                            <div class="welcome-text text-right">
+                                <h2 data-animation="fadeInUp" data-delay="300ms">Happy <br>Birthday!!</h2>
+                                <h6 data-animation="fadeInUp" data-delay="500ms">Ananda Fathia Mazaya</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single Slide -->
+            <div class="single-welcome-slide bg-img bg-overlay jarallax" style="background-image: url({% static 'project/img/bg-img/nanda2.jpg' %});">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <!-- Welcome Text -->
+                        <div class="col-12">
+                            <div class="welcome-text-two text-center">
+                                <h5 data-animation="fadeInUp" data-delay="100ms">This website contains</h5>
+                                <h2 data-animation="fadeInUp" data-delay="300ms">About Us!!</h2>
+                                <!-- Event Meta -->
+                                <div class="event-meta" data-animation="fadeInUp" data-delay="500ms">
+                                    <a class="event-date" href="#"><i class="zmdi zmdi-account"></i> 25 Juli 2020</a>
+                                    <a class="event-author" href="#"><i class="zmdi zmdi-alarm-check"></i> Verdy Evantyo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Icon -->
+        <div class="icon-scroll" id="scrollDown"></div>
+    </section>
+    <!-- Welcome Area End -->
+
+    <!-- About Us And Countdown Area Start -->
+    <section class="about-us-countdown-area section-padding-100-0" id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- About Content -->
+                <div class="col-12 col-md-6">
+                    <div class="about-content-text mb-80">
+                        <h6 class="wow fadeInUp" data-wow-delay="300ms">Welcome!!</h6>
+                        <h3 class="wow fadeInUp" data-wow-delay="300ms">Read Me First</h3>
+                        <p class="wow fadeInUp" data-wow-delay="300ms">Selamat ulang tahun buat Nanda yang ke-20 tahun!
+                        semoga kamu selalu bahagia yahh❤. Waktu ulang tahun kamu taun lalu, aku rencana mau bikin album foto gitu, tapi
+                        aku males gabisa bikin scrapbook sebagus kamu WKWK akhirnya aku bikin lewat ini ajayaaa sekalian buat
+                        Verdy belajaarr yeayy.</p>
+                    </div>
+                </div>
+
+                <!-- About Thumb -->
+                <div class="col-12 col-md-6">
+                    <div class="about-thumb mb-80 wow fadeInUp" data-wow-delay="300ms">
+                        <video width="600" controls>
+                            <!--<img class="mb-30" src="{% static 'project/img/bg-img/51.jpg' %}" alt="">-->
+                          <source src="{% static 'project/img/Fixdufan/videos/barumasuk.mp4' %}" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Counter Up Area-->
+        <div class="countdown-up-area">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-3">
+                        <!--Countdown Text-->
+                        <div class="countdown-content-text mb-100 wow fadeInUp" data-wow-delay="300ms">
+                            <!--<h6>Countdown</h6>
+                            <h4>Menuju 8 Agustus!!</h4>-->
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-9">
+                        <!--<div class="countdown-timer mb-100 wow fadeInUp" data-wow-delay="300ms">
+                            <div id="clock">
+                            </div>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us And Countdown Area End -->
+
+    <!-- Our Speakings Area Start -->
+    <section class="our-speaker-area bg-img bg-gradient-overlay section-padding-100-60" style="background-image: url({% static 'project/img/bg-img/3.jpg' %});">
+        <div class="container">
+            <div class="row">
+                <!-- Heading -->
+                <div class="col-12">
+                    <div class="section-heading text-center wow fadeInUp" data-wow-delay="300ms">
+                        <p>Our Moments</p>
+                        <h4>This is our happy face!</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Single Speaker Area -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp" data-wow-delay="300ms">
+                        <!-- Thumb -->
+                        <div class="speaker-single-thumb">
+                            <img src="{% static 'project/img/Fixsemarang/semarang2.jpg' %}" alt="">
+                        </div>
+                        <!-- Info -->
+                        <div class="speaker-info">
+                            <h5>Semarang Yeayy</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Speaker Area -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp" data-wow-delay="300ms">
+                        <!-- Thumb -->
+                        <div class="speaker-single-thumb">
+                            <img src="{% static 'project/img/Fixsemarang/semarang3.jpg' %}" alt="">
+                        </div>
+                        <!-- Info -->
+                        <div class="speaker-info">
+                            <h5>Lawang Sewuu</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Speaker Area -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp" data-wow-delay="300ms">
+                        <!-- Thumb -->
+                        <div class="speaker-single-thumb">
+                            <img src="{% static 'project/img/Fixsemarang/semarang4.jpg' %}" alt="">
+                        </div>
+                        <!-- Info -->
+                        <div class="speaker-info">
+                            <h5>Sam Poo Kong</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Speaker Area -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp" data-wow-delay="300ms">
+                        <!-- Thumb -->
+                        <div class="speaker-single-thumb">
+                            <img src="{% static 'project/img/Fixdufan/dufan1.jpg' %}" alt="">
+                        </div>
+                        <!-- Info -->
+                        <div class="speaker-info">
+                            <h5>Dufan Yuhuu</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Speaker Area -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp" data-wow-delay="300ms">
+                        <!-- Thumb -->
+                        <div class="speaker-single-thumb">
+                            <img src="{% static 'project/img/Fixdufan/dufan3.jpg' %}" alt="">
+                        </div>
+                        <!-- Info -->
+                        <div class="speaker-info">
+                            <h5>Naik Gajahh</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Speaker Area -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp" data-wow-delay="300ms">
+                        <!-- Thumb -->
+                        <div class="speaker-single-thumb">
+                            <img src="{% static 'project/img/Fixdufan/dufan4.jpg' %}" alt="">
+                        </div>
+                        <!-- Info -->
+                        <div class="speaker-info">
+                            <h5>Verdy Pertama ke Dufan!</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Speaker Area -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp" data-wow-delay="300ms">
+                        <!-- Thumb -->
+                        <div class="speaker-single-thumb">
+                            <img src="{% static 'project/img/Fixkotu/kotu2.jpg' %}" alt="">
+                        </div>
+                        <!-- Info -->
+                        <div class="speaker-info">
+                            <h5>Kota Tua Yeayy!</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Speaker Area -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp" data-wow-delay="300ms">
+                        <!-- Thumb -->
+                        <div class="speaker-single-thumb">
+                            <img src="{% static 'project/img/Fixkotu/kotu4.jpg' %}" alt="">
+                        </div>
+                        <!-- Info -->
+                        <div class="speaker-info">
+                            <h5>Naik Bis Tingkattt</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Speaker Area -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp" data-wow-delay="300ms">
+                        <!-- Thumb -->
+                        <div class="speaker-single-thumb">
+                            <img src="{% static 'project/img/Fixkotu/kotu3.jpg' %}" alt="">
+                        </div>
+                        <!-- Info -->
+                        <div class="speaker-info">
+                            <h5>Seruu!!</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Our Speakings Area End -->
+
+    <!-- Our Schedule Area Start -->
+    <section class="our-schedule-area section-padding-100">
+        <div class="container">
+            <div class="row">
+                <!-- Heading -->
+                <div class="col-12">
+                    <div class="section-heading-2 text-center wow fadeInUp" data-wow-delay="300ms">
+                        <p>Our Love Story</p>
+                        <h4>PDKT sampai sekarang</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="schedule-tab">
+                        <!-- Nav Tabs -->
+                        <ul class="nav nav-tabs wow fadeInUp" data-wow-delay="300ms" id="conferScheduleTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="monday-tab" data-toggle="tab" href="#step-one" role="tab" aria-controls="step-one" aria-expanded="true">Lupa <br> <span>Mulainya kapan HEHE</span></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Tab Content -->
+                    <div class="tab-content" id="conferScheduleTabContent">
+                        <div class="tab-pane fade show active" id="step-one" role="tabpanel" aria-labelledby="monday-tab">
+                            <!-- Single Tab Content -->
+                            <div class="single-tab-content">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <!-- Single Schedule Area -->
+                                        <div class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center wow fadeInUp" data-wow-delay="300ms">
+                                            <!-- Single Schedule Thumb and Info -->
+                                            <div class="single-schedule-tumb-info d-flex align-items-center">
+                                                <!-- Single Schedule Thumb -->
+                                                <div class="single-schedule-tumb">
+                                                    <img src="{% static 'project/img/bg-img/10.jpg' %}" alt="">
+                                                </div>
+                                                <!-- Single Schedule Info -->
+                                                <div class="single-schedule-info">
+                                                    <h6>Nanda Suka sama Verdy</h6>
+                                                    <p>by <span>Ananda Fathia Mazaya</span> / Ngeliat Verdy pas Ngaji
+                                                    di Ozone</p>
+                                                </div>
+                                            </div>
+                                            <!-- Single Schedule Info -->
+                                            <div class="schedule-time-place">
+                                                <p><i class="zmdi zmdi-time"></i> Sebelum kelas 8 SMP</p>
+                                                <p><i class="zmdi zmdi-map"></i> Hatinya Nanda❤</p>
+                                            </div>
+                                            <!-- Schedule Btn
+                                            <a href="#" class="btn confer-btn">View More <i class="zmdi zmdi-long-arrow-right"></i></a>-->
+                                        </div>
+
+                                        <!-- Single Schedule Area -->
+                                        <div class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center wow fadeInUp" data-wow-delay="300ms">
+                                            <!-- Single Schedule Thumb and Info -->
+                                            <div class="single-schedule-tumb-info d-flex align-items-center">
+                                                <!-- Single Schedule Thumb -->
+                                                <div class="single-schedule-tumb">
+                                                    <img src="{% static 'project/img/bg-img/11.jpg' %}" alt="">
+                                                </div>
+                                                <!-- Single Schedule Info -->
+                                                <div class="single-schedule-info">
+                                                    <h6>Verdy Nanya PR ke Nanda</h6>
+                                                    <p>by <span>Verdy Evantyo</span> / Baru kenal sama Nanda</p>
+                                                </div>
+                                            </div>
+                                            <!-- Single Schedule Info -->
+                                            <div class="schedule-time-place">
+                                                <p><i class="zmdi zmdi-time"></i> Kelas 8 SMP</p>
+                                                <p><i class="zmdi zmdi-map"></i> BBM </p>
+                                            </div>
+                                            <!-- Schedule Btn
+                                            <a href="#" class="btn confer-btn">View More <i class="zmdi zmdi-long-arrow-right"></i></a>-->
+                                        </div>
+
+                                        <!-- Single Schedule Area -->
+                                        <div class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center wow fadeInUp" data-wow-delay="300ms">
+                                            <!-- Single Schedule Thumb and Info -->
+                                            <div class="single-schedule-tumb-info d-flex align-items-center">
+                                                <!-- Single Schedule Thumb -->
+                                                <div class="single-schedule-tumb">
+                                                    <img src="{% static 'project/img/bg-img/12.jpg' %}" alt="">
+                                                </div>
+                                                <!-- Single Schedule Info -->
+                                                <div class="single-schedule-info">
+                                                    <h6>Verdy nembak Nanda ❤</h6>
+                                                    <p>by <span>Verdy Evantyo</span> / Cerita kita dimulai disini</p>
+                                                </div>
+                                            </div>
+                                            <!-- Single Schedule Info -->
+                                            <div class="schedule-time-place">
+                                                <p><i class="zmdi zmdi-time"></i> 1 Desember 2014</p>
+                                                <p><i class="zmdi zmdi-map"></i> BBM</p>
+                                            </div>
+                                            <!-- Schedule Btn
+                                            <a href="#" class="btn confer-btn">View More <i class="zmdi zmdi-long-arrow-right"></i></a>-->
+                                        </div>
+
+                                        <!-- Single Schedule Area -->
+                                        <div class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center wow fadeInUp" data-wow-delay="300ms">
+                                            <!-- Single Schedule Thumb and Info -->
+                                            <div class="single-schedule-tumb-info d-flex align-items-center">
+                                                <!-- Single Schedule Thumb -->
+                                                <div class="single-schedule-tumb">
+                                                    <img src="{% static 'project/img/bg-img/13.jpg' %}" alt="">
+                                                </div>
+                                                <!-- Single Schedule Info -->
+                                                <div class="single-schedule-info">
+                                                    <h6>Masih Lanjut sampai Sekarang 💕</h6>
+                                                    <p>by <span>Verdy & Nanda</span> / Nanda jeleq wle</p>
+                                                </div>
+                                            </div>
+                                            <!-- Single Schedule Info -->
+                                            <div class="schedule-time-place">
+                                                <p><i class="zmdi zmdi-time"></i> Sampai tua</p>
+                                                <p><i class="zmdi zmdi-map"></i> Our Heart❤</p>
+                                            </div>
+                                            <!-- Schedule Btn
+                                            <a href="#" class="btn confer-btn">View More <i class="zmdi zmdi-long-arrow-right"></i></a>-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="step-two" role="tabpanel" aria-labelledby="tuesday-tab">
+                            <!-- Single Tab Content -->
+                            <div class="single-tab-content">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <!-- Single Schedule Area -->
+                                        <div class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center wow fadeInUp" data-wow-delay="300ms">
+                                            <!-- Single Schedule Thumb and Info -->
+                                            <div class="single-schedule-tumb-info d-flex align-items-center">
+                                                <!-- Single Schedule Thumb -->
+                                                <div class="single-schedule-tumb">
+                                                    <img src="{% static 'project/img/bg-img/11.jpg' %}" alt="">
+                                                </div>
+                                                <!-- Single Schedule Info -->
+                                                <div class="single-schedule-info">
+                                                    <h6>Crop Insurance Conference</h6>
+                                                    <p>by <span>Amanda Hudson</span> / Ceo of Confer</p>
+                                                </div>
+                                            </div>
+                                            <!-- Single Schedule Info -->
+                                            <div class="schedule-time-place">
+                                                <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
+                                                <p><i class="zmdi zmdi-map"></i> Mountain Resort, Phoenix, USA</p>
+                                            </div>
+                                            <!-- Schedule Btn -->
+                                            <a href="#" class="btn confer-btn">View More <i class="zmdi zmdi-long-arrow-right"></i></a>
+                                        </div>
+
+                                        <!-- Single Schedule Area -->
+                                        <div class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center wow fadeInUp" data-wow-delay="300ms">
+                                            <!-- Single Schedule Thumb and Info -->
+                                            <div class="single-schedule-tumb-info d-flex align-items-center">
+                                                <!-- Single Schedule Thumb -->
+                                                <div class="single-schedule-tumb">
+                                                    <img src="{% static 'project/img/bg-img/12.jpg' %}" alt="">
+                                                </div>
+                                                <!-- Single Schedule Info -->
+                                                <div class="single-schedule-info">
+                                                    <h6>Capdm Executive Conference</h6>
+                                                    <p>by <span>Martha Burke</span> / Ceo of Confer</p>
+                                                </div>
+                                            </div>
+                                            <!-- Single Schedule Info -->
+                                            <div class="schedule-time-place">
+                                                <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
+                                                <p><i class="zmdi zmdi-map"></i> Mountain Resort, Phoenix, USA</p>
+                                            </div>
+                                            <!-- Schedule Btn -->
+                                            <a href="#" class="btn confer-btn">View More <i class="zmdi zmdi-long-arrow-right"></i></a>
+                                        </div>
+
+                                        <!-- Single Schedule Area -->
+                                        <div class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center wow fadeInUp" data-wow-delay="300ms">
+                                            <!-- Single Schedule Thumb and Info -->
+                                            <div class="single-schedule-tumb-info d-flex align-items-center">
+                                                <!-- Single Schedule Thumb -->
+                                                <div class="single-schedule-tumb">
+                                                    <img src="{% static 'project/img/bg-img/13.jpg' %}" alt="">
+                                                </div>
+                                                <!-- Single Schedule Info -->
+                                                <div class="single-schedule-info">
+                                                    <h6>Street Food Convention</h6>
+                                                    <p>by <span>Jeffrey Morales</span> / Ceo of Confer</p>
+                                                </div>
+                                            </div>
+                                            <!-- Single Schedule Info -->
+                                            <div class="schedule-time-place">
+                                                <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
+                                                <p><i class="zmdi zmdi-map"></i> Mountain Resort, Phoenix, USA</p>
+                                            </div>
+                                            <!-- Schedule Btn -->
+                                            <a href="#" class="btn confer-btn">View More <i class="zmdi zmdi-long-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+
+                                    <!-- More Schedule Btn -->
+                                    <div class="col-12">
+                                        <div class="more-schedule-btn text-center mt-50 wow fadeInUp" data-wow-delay="300ms">
+                                            <a href="#" class="btn confer-gb-btn">Dowload schedule (Pdf)</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="step-three" role="tabpanel" aria-labelledby="wednesday-tab">
+                            <!-- Single Tab Content -->
+                            <div class="single-tab-content">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <!-- Single Schedule Area -->
+                                        <div class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center wow fadeInUp" data-wow-delay="300ms">
+                                            <!-- Single Schedule Thumb and Info -->
+                                            <div class="single-schedule-tumb-info d-flex align-items-center">
+                                                <!-- Single Schedule Thumb -->
+                                                <div class="single-schedule-tumb">
+                                                    <img src="{% static 'project/img/bg-img/10.jpg' %}" alt="">
+                                                </div>
+                                                <!-- Single Schedule Info -->
+                                                <div class="single-schedule-info">
+                                                    <h6>Dealing with Difficult People</h6>
+                                                    <p>by <span>Gary Armstrong</span> / Ceo of Confer</p>
+                                                </div>
+                                            </div>
+                                            <!-- Single Schedule Info -->
+                                            <div class="schedule-time-place">
+                                                <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
+                                                <p><i class="zmdi zmdi-map"></i> Mountain Resort, Phoenix, USA</p>
+                                            </div>
+                                            <!-- Schedule Btn -->
+                                            <a href="#" class="btn confer-btn">View More <i class="zmdi zmdi-long-arrow-right"></i></a>
+                                        </div>
+
+                                        <!-- Single Schedule Area -->
+                                        <div class="single-schedule-area d-flex flex-wrap justify-content-between align-items-center wow fadeInUp" data-wow-delay="300ms">
+                                            <!-- Single Schedule Thumb and Info -->
+                                            <div class="single-schedule-tumb-info d-flex align-items-center">
+                                                <!-- Single Schedule Thumb -->
+                                                <div class="single-schedule-tumb">
+                                                    <img src="{% static 'project/img/bg-img/13.jpg' %}" alt="">
+                                                </div>
+                                                <!-- Single Schedule Info -->
+                                                <div class="single-schedule-info">
+                                                    <h6>Street Food Convention</h6>
+                                                    <p>by <span>Jeffrey Morales</span> / Ceo of Confer</p>
+                                                </div>
+                                            </div>
+                                            <!-- Single Schedule Info -->
+                                            <div class="schedule-time-place">
+                                                <p><i class="zmdi zmdi-time"></i> 12-14 Jan 2019</p>
+                                                <p><i class="zmdi zmdi-map"></i> Mountain Resort, Phoenix, USA</p>
+                                            </div>
+                                            <!-- Schedule Btn -->
+                                            <a href="#" class="btn confer-btn">View More <i class="zmdi zmdi-long-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+
+                                    <!-- More Schedule Btn -->
+                                    <div class="col-12">
+                                        <div class="more-schedule-btn text-center mt-50 wow fadeInUp" data-wow-delay="300ms">
+                                            <a href="#" class="btn confer-gb-btn">Dowload schedule (Pdf)</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Our Schedule Area End -->
+
+    <!-- Our Sponsor And Client Area Start -->
+    <section class="our-sponsor-client-area  bg-img bg-gradient-overlay section-padding-100-70 jarallax" style="background-image: url({% static 'project/img/bg-img/14.jpg' %});">
+        <div class="container">
+            <div class="row">
+                <!-- Heading -->
+                <div class="col-12">
+                    <div class="section-heading-2 text-center wow fadeInUp" data-wow-delay="300ms">
+                        <p>Film-film</p>
+                        <h4>Our Movies</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <!-- Our Sponsor area -->
+                    <div class="our-sponsor-area d-flex flex-wrap">
+                        <!-- Single Sponsor -->
+                        <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms">
+                            <a href="#"><img src="{% static 'project/img/core-img/paddington-removebg-preview.png' %}" alt=""></a>
+                        </div>
+                        <!-- Single Sponsor -->
+                        <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms">
+                            <a href="#"><img src="{% static 'project/img/core-img/Jurassic_World_fix.png' %}" alt=""></a>
+                        </div>
+                        <!-- Single Sponsor -->
+                        <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms">
+                            <a href="#"><img src="{% static 'project/img/core-img/martian.png' %}" alt=""></a>
+                        </div>
+                        <!-- Single Sponsor -->
+                        <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms">
+                            <a href="#"><img src="{% static 'project/img/core-img/insideout.png' %}" alt=""></a>
+                        </div>
+                        <!-- Single Sponsor -->
+                        <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms">
+                            <a href="#"><img src="{% static 'project/img/core-img/tomorrow-land-fix.png' %}" alt=""></a>
+                        </div>
+                        <!-- Single Sponsor -->
+                        <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms">
+                            <a href="#"><img src="{% static 'project/img/core-img/mockingjay.png' %}" alt=""></a>
+                        </div>
+                        <!-- Single Sponsor -->
+                        <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms">
+                            <a href="#"><img src="{% static 'project/img/core-img/comic.png' %}" alt=""></a>
+                        </div>
+                        <!-- Single Sponsor -->
+                        <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms">
+                            <a href="#"><img src="{% static 'project/img/core-img/dilan.png' %}" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Our Sponsor And Client Area End -->
+
+    <!-- Contact Area Start -->
+    <section class="contact-our-area section-padding-100-0">
+        <div class="container">
+            <div class="row">
+                <!-- Heading -->
+                <div class="col-12">
+                    <div class="section-heading-2 text-center wow fadeInUp" data-wow-delay="300ms">
+                        <p>Kangen?</p>
+                        <h4>Kontak Verdy Yah</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-between">
+                <div class="col-12 col-sm-3">
+                    <div class="contact-information mb-100">
+                        <!-- Single Contact Info -->
+                        <div class="single-contact-info wow fadeInUp" data-wow-delay="300ms">
+                            <p>Address:</p>
+                            <h6>Sebelah Rumah Tetangga Aku</h6>
+                        </div>
+                        <!-- Single Contact Info -->
+                        <div class="single-contact-info wow fadeInUp" data-wow-delay="300ms">
+                            <p>Phone:</p>
+                            <h6>Gamau Wle</h6>
+                        </div>
+                        <!-- Single Contact Info -->
+                        <div class="single-contact-info wow fadeInUp" data-wow-delay="300ms">
+                            <p>IG</p>
+                            <h6>@susuu.coklat</h6>
+                        </div>
+                        <!-- Single Contact Info -->
+                        <div class="single-contact-info wow fadeInUp" data-wow-delay="300ms">
+                            <p>LINE:</p>
+                            <h6>verdygantenk</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-8">
+                    <!-- Contact Form -->
+                    <div class="contact_from_area mb-100 clearfix wow fadeInUp" data-wow-delay="300ms">
+                        <div class="contact_form">
+                            <form action="." method="post" id="main_contact_form">
+                                {% csrf_token %}
+                                <div class="contact_input_area">
+                                    <div id="success_fail_info"></div>
+                                    <div class="row">
+                                        <!-- Form Group -->
+                                        <div class="col-12 col-lg-6">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control mb-30" name="name" id="name" placeholder="Your Name">
+                                            </div>
+                                        </div>
+                                        <!-- Form Group -->
+                                        <div class="col-12 col-lg-6">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control mb-30" name="name" id="name2" placeholder="Last Name">
+                                            </div>
+                                        </div>
+                                        <!-- Form Group -->
+                                        <div class="col-12 col-lg-6">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control mb-30" name="email" id="email" placeholder="E-mail">
+                                            </div>
+                                        </div>
+                                        <!-- Form Group -->
+                                        <div class="col-12 col-lg-6">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control mb-30" name="subject" id="subject" placeholder="Your Number">
+                                            </div>
+                                        </div>
+                                        <!-- Form Group -->
+                                        <div class="col-12">
+                                            <div class="form-group">
+                                                <textarea name="message" class="form-control mb-30" id="message" cols="30" rows="6" placeholder="Your Message *"></textarea>
+                                            </div>
+                                        </div>
+                                        <!-- Button -->
+                                        <div class="col-12">
+                                            <button type="submit" class="btn confer-btn">Send Message <i class="zmdi zmdi-long-arrow-right"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Area End -->
+
+
+
+</body>
+
+{% endblock content %}
