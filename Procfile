@@ -1,1 +1,1 @@
-web: gunicorn birthday.wsgi --log-file - 
+web: gunicorn birthday.birthday.wsgi --log-file - 
